@@ -96,3 +96,7 @@ body{
 #productDescription #products img:hover{
     opacity: 1 !important;
 }
+
+#nuoveUscite h6{
+    font-size: 0.8rem;
+}
