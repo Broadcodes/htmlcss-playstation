@@ -1,3 +1,13 @@
+/* CLASSI GENERICHE */
+.gf-bg-orange,
+.gf-bg-orange:hover{
+    background-color: #cd3d0f;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #sony_logo {
     max-width: 100px;
     padding: 12px 10px;
@@ -23,4 +33,24 @@
     position: relative;
     top: 5px;
     transform: scale(0.7) rotate(-90deg);
+}
+
+.gf-bg-image{
+    margin-top: 100px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 630px;
+}
+
+h2{
+    font-size: 3rem;;
+}
+
+p{
+    font-size: 1.1rem;;
+}
+
+#banner-returnal{
+    padding-left: 10px;
 }
