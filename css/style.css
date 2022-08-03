@@ -35,7 +35,7 @@ body{
     transform: scale(0.7) rotate(-90deg);
 }
 
-.gf-bg-image{
+.gf-bg-imageJumbo{
     margin-top: 100px;
     background-image: url("../img/jumbo-bg.png");
     background-position: center top;
@@ -43,11 +43,23 @@ body{
     height: 630px;
 }
 
-#jumbo h2{
+.gf-bg-imageJumbo2{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    filter: brightness();
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#jumbo h2 {
     font-size: 3rem;;
 }
 
-#jumbo p{
+#jumbo2 h2 {
+    font-size: 2.5rem;;
+}
+
+#jumbo p,
+#jumbo2 p{
     font-size: 1.1rem;;
 }
 
