@@ -4,6 +4,10 @@
     background-color: #cd3d0f;
 }
 
+.gf-bg-blue{
+    background-color: #00439c;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,12 +31,24 @@ body{
     padding: 0;
 }
 
-.dropdown-toggle::after{
+#navbarNavDropdown > ul > li > a{
+    display: flex;
+    align-items: center;
+}
+
+#navbarNavDropdown > ul > li > a::after{
     border-top: none;
-    content: "\276E";
-    position: relative;
-    top: 5px;
-    transform: scale(0.7) rotate(-90deg);
+    content: "";
+    display: inline-block;
+    background-image: url("../img/chevron-down-solid.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+#navbarNavDropdown > ul > li > a:hover::after{
+    background-image: url("../img/chevron-down-solid-hover.svg");
 }
 
 .gf-bg-imageJumbo{
