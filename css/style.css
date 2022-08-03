@@ -54,3 +54,12 @@ p{
 #banner-returnal{
     padding-left: 10px;
 }
+
+#cards img{
+    padding: 5px;
+}
+
+#cards img:hover{
+    padding: 2px;
+    border: 3px solid blue;
+}
