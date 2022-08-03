@@ -89,4 +89,10 @@ body{
 
 #productDescription #products img{
     max-width: 100px;
+    opacity: 0.7;
+}
+
+.active,
+#productDescription #products img:hover{
+    opacity: 1 !important;
 }
