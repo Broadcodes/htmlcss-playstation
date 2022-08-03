@@ -1,4 +1,26 @@
-#sony_logo{
-    max-width: 8%;
+#sony_logo {
+    max-width: 100px;
     padding: 12px 10px;
+}
+
+#search{
+    max-width: 30px;
+}
+
+.dropstart .dropdown-toggle::before {
+    display: none;
+}
+
+.areaSearch .dropdown-menu {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.dropdown-toggle::after{
+    border-top: none;
+    content: "\276E";
+    position: relative;
+    top: 5px;
+    transform: scale(0.7) rotate(-90deg);
 }
