@@ -103,6 +103,8 @@ body{
 #cards img:hover{
     padding: 2px;
     border: 3px solid blue;
+    transition: transform 0.5s;
+    transform: translateY(-8%);
 }
 
 #productDescription h6{
