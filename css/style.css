@@ -117,14 +117,27 @@ body{
     font-weight: 700;
 }
 
+#productDescription #products div{
+    max-width: 20%;
+}
+
+#productDescription #products div:hover{
+    border-bottom: 3px solid #007bff;
+    margin-bottom: -3px;
+}
+
+#productDescription #products div:hover img{
+    opacity: 1 !important;
+}
+
 #productDescription #products img{
     max-width: 100px;
     opacity: 0.7;
 }
 
-.active,
-#productDescription #products img:hover{
-    opacity: 1 !important;
+.active{
+    border-bottom: 3px solid #007bff;
+    margin-bottom: -3px;
 }
 
 #nuoveUscite h6{
