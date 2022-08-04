@@ -8,6 +8,14 @@
     background-color: #00439c;
 }
 
+.gf-bg-gray{
+    background-color: #bebcbb;
+}
+
+.gf-bg-graylight{
+    background-color: #d9dadc;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
