@@ -59,8 +59,19 @@ body{
     height: 20px;
 }
 
+#navbarNavDropdown > ul > li > a:focus::after{
+    transform: rotate(180deg);
+}
+
 #navbarNavDropdown > ul > li > a:hover::after{
     background-image: url("../img/chevron-down-solid-hover.svg");
+}
+
+#navbarNavDropdown i{
+    font-size: 0.3rem;
+    color: #007bff;
+    vertical-align: middle;
+    padding-right: 10px;
 }
 
 .gf-bg-imageJumbo{
