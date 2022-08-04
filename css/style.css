@@ -8,6 +8,10 @@
     background-color: #00439c;
 }
 
+.gf-bg-blueDark{
+    background-color: #161c3b;
+}
+
 .gf-bg-gray{
     background-color: #bebcbb;
 }
@@ -125,4 +129,8 @@ body{
 
 #nuoveUscite h6{
     font-size: 0.8rem;
+}
+
+footer .row div div img{
+    max-width: 15px;
 }
