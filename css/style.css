@@ -48,6 +48,10 @@ body {
     align-items: center;
 }
 
+#navbarNavDropdown>ul>li>div>ul:nth-child(1)>li:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
 #navbarNavDropdown>ul>li>a::after {
     border-top: none;
     content: "";
