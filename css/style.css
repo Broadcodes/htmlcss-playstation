@@ -109,6 +109,8 @@ body{
 
 #cards img{
     padding: 5px;
+    transition: transform 0.5s;
+    transform: translateY(0);
 }
 
 #cards img:hover{
