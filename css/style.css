@@ -1,26 +1,26 @@
 /* CLASSI GENERICHE */
 .gf-bg-orange,
-.gf-bg-orange:hover{
+.gf-bg-orange:hover {
     background-color: #cd3d0f;
 }
 
-.gf-bg-blue{
+.gf-bg-blue {
     background-color: #00439c;
 }
 
-.gf-bg-blueDark{
+.gf-bg-blueDark {
     background-color: #161c3b;
 }
 
-.gf-bg-gray{
+.gf-bg-gray {
     background-color: #bebcbb;
 }
 
-.gf-bg-graylight{
+.gf-bg-graylight {
     background-color: #d9dadc;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@ body{
     padding: 12px 10px;
 }
 
-#search{
+#search {
     max-width: 30px;
 }
 
@@ -43,12 +43,12 @@ body{
     padding: 0;
 }
 
-#navbarNavDropdown > ul > li > a{
+#navbarNavDropdown>ul>li>a {
     display: flex;
     align-items: center;
 }
 
-#navbarNavDropdown > ul > li > a::after{
+#navbarNavDropdown>ul>li>a::after {
     border-top: none;
     content: "";
     display: inline-block;
@@ -59,22 +59,22 @@ body{
     height: 20px;
 }
 
-#navbarNavDropdown > ul > li > a:focus::after{
+#navbarNavDropdown>ul>li>a:focus::after {
     transform: rotate(180deg);
 }
 
-#navbarNavDropdown > ul > li > a:hover::after{
+#navbarNavDropdown>ul>li>a:hover::after {
     background-image: url("../img/chevron-down-solid-hover.svg");
 }
 
-#navbarNavDropdown i{
+#navbarNavDropdown i {
     font-size: 0.3rem;
     color: #007bff;
     vertical-align: middle;
     padding-right: 10px;
 }
 
-.gf-bg-imageJumbo{
+.gf-bg-imageJumbo {
     margin-top: 100px;
     background-image: url("../img/jumbo-bg.png");
     background-position: center top;
@@ -82,7 +82,7 @@ body{
     height: 630px;
 }
 
-.gf-bg-imageJumbo2{
+.gf-bg-imageJumbo2 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     filter: brightness();
     background-position: center top;
@@ -90,16 +90,19 @@ body{
 }
 
 #jumbo h2 {
-    font-size: 3rem;;
+    font-size: 3rem;
+    ;
 }
 
 #jumbo2 h2 {
-    font-size: 2.5rem;;
+    font-size: 2.5rem;
+    ;
 }
 
 #jumbo p,
-#jumbo2 p{
-    font-size: 1.1rem;;
+#jumbo2 p {
+    font-size: 1.1rem;
+    ;
 }
 
 #banner-returnal,
@@ -107,58 +110,62 @@ body{
     padding-left: 10px;
 }
 
-#cards img{
+#cards img {
     padding: 5px;
     transition: transform 0.5s;
     transform: translateY(0);
 }
 
-#cards img:hover{
+#cards img:hover {
     padding: 2px;
     border: 3px solid blue;
     transition: transform 0.5s;
     transform: translateY(-8%);
 }
 
-#productDescription h6{
+#productDescription h6 {
     font-size: 0.9rem;
     color: #077ed3;
     font-weight: 700;
 }
 
 #productDescription h2,
-#sconti h2{
+#sconti h2 {
     font-size: 2.3rem;
     font-weight: 700;
 }
 
-#productDescription #products div{
+#productDescription #products div {
     max-width: 20%;
 }
 
-#productDescription #products div:hover{
+#productDescription #products div:hover {
     border-bottom: 3px solid #007bff;
     margin-bottom: -3px;
 }
 
-#productDescription #products div:hover img{
+#productDescription #products div:hover img {
     opacity: 1 !important;
 }
 
-#productDescription #products img{
+#productDescription #products img {
     max-width: 100px;
     opacity: 0.7;
 }
 
-.active{
+.active {
     border-bottom: 3px solid #007bff;
     margin-bottom: -3px;
 }
 
-#nuoveUscite h6{
+#nuoveUscite h6 {
     font-size: 0.8rem;
 }
 
-footer .row div div img{
+#playStation-Plus a:hover {
+    background-color: #d9dadc;
+}
+
+footer .row div div img {
     max-width: 15px;
 }
