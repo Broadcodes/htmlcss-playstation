@@ -83,6 +83,7 @@ body {
     background-image: url("../img/jumbo-bg.png");
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 630px;
 }
 
